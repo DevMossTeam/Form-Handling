@@ -37,7 +37,7 @@ while ($row = mysqli_fetch_array($result)){
         <p>nama &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <input type="text" name="txt_fullname" value="<?php echo $userName; ?>"></p>
         <button type="submit" name="update">Update</button>
     </form>
-    <p><a href="home.php">Kembali</a></p>
+    <p><a href="index.php">Kembali</a></p>
 </body>
 </html>
 <?php
